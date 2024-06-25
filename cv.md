@@ -73,7 +73,9 @@ function findSmallestInt(arr) {
 
 ### Courses:
 
-
+- Graduated from a one-year university\Front-end course<br>
+- Full JavaScript Course For Beginners [youtube](https://www.youtube.com/watch?v=CxgOKJh4zWE) (completed)<br>
+- RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)<br>
 
 ---
 
