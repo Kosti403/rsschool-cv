@@ -70,3 +70,14 @@ function findSmallestInt(arr) {
 ```
 
 ---
+
+### Courses:
+
+
+
+---
+
+### Languages:
+
+- English A1-A2
+- Russian \- Intermediate
