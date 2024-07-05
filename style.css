@@ -134,3 +134,92 @@
       opacity: 1;
     }
   }
+  
+  /* Bio info styles */
+  .bio-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  .name {
+    line-height: 40px;
+  }
+  
+  /* Contact links */
+  .contact {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+  
+  .contact .link,
+  .location {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  /* Main content styles */
+  main {
+    margin-top: 60px;
+  }
+  
+  /* Heading styles */
+  .heading {
+    display: flex;
+    gap: 30px;
+    border-bottom: 1px solid #585d6c;
+    padding-bottom: 30px;
+    margin-bottom: 40px;
+    align-items: center;
+  }
+  
+  /* Content sections */
+  .content {
+    margin-top: 60px;
+  }
+  section {
+    margin-top: 35px;
+  }
+  
+  /* Education */
+  .education-info {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  /* Language container styles */
+  .langContainer {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 40px;
+  }
+  
+  .subLangBox {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    align-items: center;
+  }
+  .subTitleLang {
+    color: #93acf8;
+  }
+  /* Link styles */
+  .linkInProject {
+    color: #93acf8;
+  }
+  
+  .linkInProject:hover {
+    color: #000;
+  }
+  
+  /* Preformatted code block */
+  pre {
+    background-color: rgba(42, 11, 71, 0.4);
+    border: 1px solid #323030;
+    padding: 10px;
+    border-radius: 5px;
+    overflow-x: auto;
+    color: #ffecec;
+    margin-top: 30px;
+  }

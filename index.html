@@ -69,6 +69,114 @@
             </div>
           </div>
         </header>
+        <main>
+            <section>
+              <h3>My name is Konstantin. I have completed university and specialized courses to become a Frontend developer.<br>
+                My goal is to achieve success in this profession as it perfectly fits my lifestyle and desire for continuous growth.<br>
+                I plan to take RS courses to solidify my knowledge. My main objective is to receive my first job offer and<br>
+                start actively honing my skills.</h3>
+            </section>
+            <section>
+              <div>
+                <h2 class="heading"><img src="./img/workExperiens.svg" alt="workExperience">Work Experience</h2>
+                <p>Work experience was gained in practice at TOO "TechCulture", where I was introduced to br Mobx and <br> participated in some projects.</p>
+                <ul class="list">
+                  <li>- Created for practice: <a href="https://main--todosw.netlify.app/" target="_blank" class="linkInProject">ToDo</a></li>
+                  <li>- My partner and I were making a website for the company: <a href="https://gexabyte.com" target="_blank" class="linkInProject">Gexabyte</a></li>
+                  <li>- The second project for Mobx training: <a href="https://deploy-preview-22--starwarserkoshakostya.netlify.app/" target="_blank" class="linkInProject">Starwars</a> (login: Nsadam123, password: Nsadam123$)</li>
+                </ul>
+              </div>
+            </section>
+            <section>
+              <div>
+                <h2 class="heading"><img src="./img/technical.svg" alt="technical">Technical Skills</h2>
+                <ul class="list">
+                  <li>- Layout: HTML5, adaptive and cross-browser layout</li>
+                  <li>- CSS Preprocessors: SASS/SCSS</li>
+                  <li>- Bootstrap/Ant designer/Moushen designer</li>
+                  <li>- Git/GitHub</li>
+                  <li>- JavaScript (ES6+)</li>
+                  <li>- TypeScript</li>
+                  <li>- Library React.js/react router dom, Mobs state manager, a bit of Redux</li>
+                  <li>- Architecture structure of FSD folders</li>
+                </ul>
+              </div>
+            </section>
+            <section>
+              <div>
+                <h2 class="heading"><img src="./img/softSkills.svg" alt="soft">Soft Skills</h2>
+                <ul class="list">
+                  <li>- Public speaking</li>
+                  <li>- Effective communication</li>
+                  <li>- The desire to develop</li>
+                  <li>- Communication skills</li>
+                  <li>- Emotional stability</li>
+                </ul>
+              </div>
+            </section>
+            <section>
+              <div>
+                <h2 class="heading"><img src="./img/education.svg" alt="Education">Education</h2>
+                <div class="education-info">
+                  <h2>Qamalladin University</h2>
+                  <p>2023-2024</p>
+                </div>
+              </div>
+            </section>
+            <section>
+              <div>
+                <h2 class="heading"><img src="./img/technical.svg" alt="code">Code example:</h2>
+                <p><b>Find the smallest integer in the array KATA from CODEWARS:</b> Given an array of integers your solution should find the smallest integer. 
+                  You can assume, for the purpose of this kata, that the supplied array will not be empty.</p>
+                <pre><code>
+                    function findSmallestInt(arr) {
+                        for (let i = 0; i < arr.length; i++) {
+                            let minIndex = i;
+                            for (let j = i + 1; j < arr.length; j++) {
+                                if (arr[j] < arr[minIndex]) {
+                                    minIndex = j;
+                                }
+                            }
+                            let tmp = arr[i];
+                            arr[i] = arr[minIndex];
+                            arr[minIndex] = tmp;
+                        }
+                        return arr[0];
+                    }  
+                  </code></pre>
+              </div>
+            </section>
+            <section>
+              <div>
+                <h2 class="heading"><img src="./img/workExperiens.svg" alt="petProjects">Pet projects</h2>
+                <ul class="list">
+                  <li>- Layout of two Pet projects in HTML + CSS using layouts from Figma.</li>
+                  <li>- Pet project based on JavaScript c API: <a href="https://carsd.netlify.app/" target="_blank" class="linkInProject">Card</a></li>
+                  <li>- A JavaScript ToDO Pet project (without localstorage): <a href="https://main--todosw.netlify.app/" target="_blank" 
+                    class="linkInProject">ToDo</a></li>  
+                  <li>- Pet project on React.JS 6 exercises for understanding hooks and the life cycle</li>
+                  <li>- Pet project (graduation) on React.js deployed on Vitesse using API/async await/task/local storage/react-router-dom/separation 
+                    into components and folders: <a href="https://github.com/Kosti403/Last-project-qamaladin-u." target="_blank" 
+                    class="linkInProject">Diploma project</a></li>
+                </ul>
+              </div>
+            </section>
+            <section>
+              <div>
+                <h2 class="heading"><img src="./img/languages.svg" alt="Languages">Languages</h2>
+                <div class="langContainer">
+                  <div class="subLangBox">
+                    <h2>Russian</h2>
+                    <p class="subTitleLang">intermediate</p>
+                  </div>
+                  <div class="subLangBox">
+                    <h2>English</h2>
+                    <p class="subTitleLang">A1-A2</p>
+                  </div>
+                </div>
+              </div>
+            </section>
+        </main>
       </div>
     </div>
   </body>
