@@ -10,6 +10,8 @@ html {
   color: #ffffff;
   letter-spacing: 0.5px;
   line-height: 24px;
+  scroll-behavior:smooth;
+  scroll-padding-top: var(--header-height);
 }
 
 /* Body styles */
