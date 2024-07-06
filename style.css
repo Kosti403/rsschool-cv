@@ -386,7 +386,7 @@ pre {
   }
 }
 
-/* For screens up to 400px */
+/* For screens up to 550px */
 @media (max-width: 550px) {
   .container{
     width: 75%;
