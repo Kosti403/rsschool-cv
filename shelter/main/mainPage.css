@@ -23,7 +23,7 @@ h6 {
 /* start screens */
 
 .stars__screen {
-  background: url(/img/start-screen-gradient-background.png) center no-repeat;
+  background: url(../public/mainImg/start-screen-gradient-background.png) center no-repeat;
   -webkit-box-size: cover;
   background-size: cover;
   width: 100%;
@@ -681,7 +681,7 @@ header {
   height: 350px;
   display: flex;
   align-items: flex-end;
-  background: url(./img/footer/Footer.png) center no-repeat;
+  background: url(../public/footerSvg/Footer.png) center no-repeat;
   -webkit-box-size: cover;
   background-size: cover;
 }
